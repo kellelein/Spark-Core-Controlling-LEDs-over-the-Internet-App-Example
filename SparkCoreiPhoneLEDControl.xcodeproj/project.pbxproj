@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59DCFD8198E36CE0013EC9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59DCFD7198E36CE0013EC9A /* Foundation.framework */; };
+		D59DCFDA198E36CE0013EC9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59DCFD9198E36CE0013EC9A /* CoreGraphics.framework */; };
+		D59DCFDC198E36CE0013EC9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59DCFDB198E36CE0013EC9A /* UIKit.framework */; };
+		D59DCFE2198E36CF0013EC9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D59DCFE0198E36CF0013EC9A /* InfoPlist.strings */; };
+		D59DCFE4198E36CF0013EC9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DCFE3198E36CF0013EC9A /* main.m */; };
+		D59DCFE8198E36CF0013EC9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DCFE7198E36CF0013EC9A /* AppDelegate.m */; };
+		D59DCFEB198E36CF0013EC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59DCFE9198E36CF0013EC9A /* Main.storyboard */; };
+		D59DCFEE198E36CF0013EC9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DCFED198E36CF0013EC9A /* ViewController.m */; };
+		D59DCFF0198E36CF0013EC9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59DCFEF198E36CF0013EC9A /* Images.xcassets */; };
+		D59DCFF7198E36CF0013EC9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59DCFF6198E36CF0013EC9A /* XCTest.framework */; };
+		D59DCFF8198E36CF0013EC9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59DCFD7198E36CE0013EC9A /* Foundation.framework */; };
+		D59DCFF9198E36CF0013EC9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59DCFDB198E36CE0013EC9A /* UIKit.framework */; };
+		D59DD001198E36CF0013EC9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D59DCFFF198E36CF0013EC9A /* InfoPlist.strings */; };
+		D59DD003198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DD002198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59DCFFA198E36CF0013EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59DCFCC198E36CE0013EC9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59DCFD3198E36CE0013EC9A;
+			remoteInfo = SparkCoreiPhoneLEDControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59DCFD4198E36CE0013EC9A /* SparkCoreiPhoneLEDControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkCoreiPhoneLEDControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59DCFD7198E36CE0013EC9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D59DCFD9198E36CE0013EC9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D59DCFDB198E36CE0013EC9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D59DCFDF198E36CF0013EC9A /* SparkCoreiPhoneLEDControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparkCoreiPhoneLEDControl-Info.plist"; sourceTree = "<group>"; };
+		D59DCFE1198E36CF0013EC9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D59DCFE3198E36CF0013EC9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D59DCFE5198E36CF0013EC9A /* SparkCoreiPhoneLEDControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparkCoreiPhoneLEDControl-Prefix.pch"; sourceTree = "<group>"; };
+		D59DCFE6198E36CF0013EC9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D59DCFE7198E36CF0013EC9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D59DCFEA198E36CF0013EC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59DCFEC198E36CF0013EC9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D59DCFED198E36CF0013EC9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D59DCFEF198E36CF0013EC9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D59DCFF5198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkCoreiPhoneLEDControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59DCFF6198E36CF0013EC9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D59DCFFE198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparkCoreiPhoneLEDControlTests-Info.plist"; sourceTree = "<group>"; };
+		D59DD000198E36CF0013EC9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D59DD002198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparkCoreiPhoneLEDControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59DCFD1198E36CE0013EC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59DCFDA198E36CE0013EC9A /* CoreGraphics.framework in Frameworks */,
+				D59DCFDC198E36CE0013EC9A /* UIKit.framework in Frameworks */,
+				D59DCFD8198E36CE0013EC9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59DCFF2198E36CF0013EC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59DCFF7198E36CF0013EC9A /* XCTest.framework in Frameworks */,
+				D59DCFF9198E36CF0013EC9A /* UIKit.framework in Frameworks */,
+				D59DCFF8198E36CF0013EC9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59DCFCB198E36CE0013EC9A = {
+			isa = PBXGroup;
+			children = (
+				D59DCFDD198E36CF0013EC9A /* SparkCoreiPhoneLEDControl */,
+				D59DCFFC198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests */,
+				D59DCFD6198E36CE0013EC9A /* Frameworks */,
+				D59DCFD5198E36CE0013EC9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59DCFD5198E36CE0013EC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59DCFD4198E36CE0013EC9A /* SparkCoreiPhoneLEDControl.app */,
+				D59DCFF5198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59DCFD6198E36CE0013EC9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D59DCFD7198E36CE0013EC9A /* Foundation.framework */,
+				D59DCFD9198E36CE0013EC9A /* CoreGraphics.framework */,
+				D59DCFDB198E36CE0013EC9A /* UIKit.framework */,
+				D59DCFF6198E36CF0013EC9A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D59DCFDD198E36CF0013EC9A /* SparkCoreiPhoneLEDControl */ = {
+			isa = PBXGroup;
+			children = (
+				D59DCFE6198E36CF0013EC9A /* AppDelegate.h */,
+				D59DCFE7198E36CF0013EC9A /* AppDelegate.m */,
+				D59DCFE9198E36CF0013EC9A /* Main.storyboard */,
+				D59DCFEC198E36CF0013EC9A /* ViewController.h */,
+				D59DCFED198E36CF0013EC9A /* ViewController.m */,
+				D59DCFEF198E36CF0013EC9A /* Images.xcassets */,
+				D59DCFDE198E36CF0013EC9A /* Supporting Files */,
+			);
+			path = SparkCoreiPhoneLEDControl;
+			sourceTree = "<group>";
+		};
+		D59DCFDE198E36CF0013EC9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59DCFDF198E36CF0013EC9A /* SparkCoreiPhoneLEDControl-Info.plist */,
+				D59DCFE0198E36CF0013EC9A /* InfoPlist.strings */,
+				D59DCFE3198E36CF0013EC9A /* main.m */,
+				D59DCFE5198E36CF0013EC9A /* SparkCoreiPhoneLEDControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59DCFFC198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59DD002198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.m */,
+				D59DCFFD198E36CF0013EC9A /* Supporting Files */,
+			);
+			path = SparkCoreiPhoneLEDControlTests;
+			sourceTree = "<group>";
+		};
+		D59DCFFD198E36CF0013EC9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59DCFFE198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests-Info.plist */,
+				D59DCFFF198E36CF0013EC9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59DCFD3198E36CE0013EC9A /* SparkCoreiPhoneLEDControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59DD006198E36CF0013EC9A /* Build configuration list for PBXNativeTarget "SparkCoreiPhoneLEDControl" */;
+			buildPhases = (
+				D59DCFD0198E36CE0013EC9A /* Sources */,
+				D59DCFD1198E36CE0013EC9A /* Frameworks */,
+				D59DCFD2198E36CE0013EC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkCoreiPhoneLEDControl;
+			productName = SparkCoreiPhoneLEDControl;
+			productReference = D59DCFD4198E36CE0013EC9A /* SparkCoreiPhoneLEDControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59DCFF4198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59DD009198E36CF0013EC9A /* Build configuration list for PBXNativeTarget "SparkCoreiPhoneLEDControlTests" */;
+			buildPhases = (
+				D59DCFF1198E36CF0013EC9A /* Sources */,
+				D59DCFF2198E36CF0013EC9A /* Frameworks */,
+				D59DCFF3198E36CF0013EC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59DCFFB198E36CF0013EC9A /* PBXTargetDependency */,
+			);
+			name = SparkCoreiPhoneLEDControlTests;
+			productName = SparkCoreiPhoneLEDControlTests;
+			productReference = D59DCFF5198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59DCFCC198E36CE0013EC9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kelle;
+				TargetAttributes = {
+					D59DCFF4198E36CF0013EC9A = {
+						TestTargetID = D59DCFD3198E36CE0013EC9A;
+					};
+				};
+			};
+			buildConfigurationList = D59DCFCF198E36CE0013EC9A /* Build configuration list for PBXProject "SparkCoreiPhoneLEDControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59DCFCB198E36CE0013EC9A;
+			productRefGroup = D59DCFD5198E36CE0013EC9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59DCFD3198E36CE0013EC9A /* SparkCoreiPhoneLEDControl */,
+				D59DCFF4198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59DCFD2198E36CE0013EC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59DCFF0198E36CF0013EC9A /* Images.xcassets in Resources */,
+				D59DCFE2198E36CF0013EC9A /* InfoPlist.strings in Resources */,
+				D59DCFEB198E36CF0013EC9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59DCFF3198E36CF0013EC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59DD001198E36CF0013EC9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59DCFD0198E36CE0013EC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59DCFEE198E36CF0013EC9A /* ViewController.m in Sources */,
+				D59DCFE8198E36CF0013EC9A /* AppDelegate.m in Sources */,
+				D59DCFE4198E36CF0013EC9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59DCFF1198E36CF0013EC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59DD003198E36CF0013EC9A /* SparkCoreiPhoneLEDControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59DCFFB198E36CF0013EC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59DCFD3198E36CE0013EC9A /* SparkCoreiPhoneLEDControl */;
+			targetProxy = D59DCFFA198E36CF0013EC9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59DCFE0198E36CF0013EC9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59DCFE1198E36CF0013EC9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D59DCFE9198E36CF0013EC9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59DCFEA198E36CF0013EC9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59DCFFF198E36CF0013EC9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59DD000198E36CF0013EC9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59DD004198E36CF0013EC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D59DD005198E36CF0013EC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59DD007198E36CF0013EC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkCoreiPhoneLEDControl/SparkCoreiPhoneLEDControl-Prefix.pch";
+				INFOPLIST_FILE = "SparkCoreiPhoneLEDControl/SparkCoreiPhoneLEDControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D59DD008198E36CF0013EC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkCoreiPhoneLEDControl/SparkCoreiPhoneLEDControl-Prefix.pch";
+				INFOPLIST_FILE = "SparkCoreiPhoneLEDControl/SparkCoreiPhoneLEDControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D59DD00A198E36CF0013EC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SparkCoreiPhoneLEDControl.app/SparkCoreiPhoneLEDControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkCoreiPhoneLEDControl/SparkCoreiPhoneLEDControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SparkCoreiPhoneLEDControlTests/SparkCoreiPhoneLEDControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D59DD00B198E36CF0013EC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SparkCoreiPhoneLEDControl.app/SparkCoreiPhoneLEDControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkCoreiPhoneLEDControl/SparkCoreiPhoneLEDControl-Prefix.pch";
+				INFOPLIST_FILE = "SparkCoreiPhoneLEDControlTests/SparkCoreiPhoneLEDControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59DCFCF198E36CE0013EC9A /* Build configuration list for PBXProject "SparkCoreiPhoneLEDControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59DD004198E36CF0013EC9A /* Debug */,
+				D59DD005198E36CF0013EC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59DD006198E36CF0013EC9A /* Build configuration list for PBXNativeTarget "SparkCoreiPhoneLEDControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59DD007198E36CF0013EC9A /* Debug */,
+				D59DD008198E36CF0013EC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D59DD009198E36CF0013EC9A /* Build configuration list for PBXNativeTarget "SparkCoreiPhoneLEDControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59DD00A198E36CF0013EC9A /* Debug */,
+				D59DD00B198E36CF0013EC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59DCFCC198E36CE0013EC9A /* Project object */;
+}
