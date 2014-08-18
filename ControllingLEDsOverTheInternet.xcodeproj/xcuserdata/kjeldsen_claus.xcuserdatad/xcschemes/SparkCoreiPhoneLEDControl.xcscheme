@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D59DCFD3198E36CE0013EC9A"
                BuildableName = "SparkCoreiPhoneLEDControl.app"
-               BlueprintName = "SparkCoreiPhoneLEDControl"
-               ReferencedContainer = "container:SparkCoreiPhoneLEDControl.xcodeproj">
+               BlueprintName = "ControllingLEDsOverTheInternet"
+               ReferencedContainer = "container:ControllingLEDsOverTheInternet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D59DCFF4198E36CF0013EC9A"
                BuildableName = "SparkCoreiPhoneLEDControlTests.xctest"
-               BlueprintName = "SparkCoreiPhoneLEDControlTests"
-               ReferencedContainer = "container:SparkCoreiPhoneLEDControl.xcodeproj">
+               BlueprintName = "ControllingLEDsOverTheInternetTests"
+               ReferencedContainer = "container:ControllingLEDsOverTheInternet.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D59DCFD3198E36CE0013EC9A"
             BuildableName = "SparkCoreiPhoneLEDControl.app"
-            BlueprintName = "SparkCoreiPhoneLEDControl"
-            ReferencedContainer = "container:SparkCoreiPhoneLEDControl.xcodeproj">
+            BlueprintName = "ControllingLEDsOverTheInternet"
+            ReferencedContainer = "container:ControllingLEDsOverTheInternet.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D59DCFD3198E36CE0013EC9A"
             BuildableName = "SparkCoreiPhoneLEDControl.app"
-            BlueprintName = "SparkCoreiPhoneLEDControl"
-            ReferencedContainer = "container:SparkCoreiPhoneLEDControl.xcodeproj">
+            BlueprintName = "ControllingLEDsOverTheInternet"
+            ReferencedContainer = "container:ControllingLEDsOverTheInternet.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D59DCFD3198E36CE0013EC9A"
             BuildableName = "SparkCoreiPhoneLEDControl.app"
-            BlueprintName = "SparkCoreiPhoneLEDControl"
-            ReferencedContainer = "container:SparkCoreiPhoneLEDControl.xcodeproj">
+            BlueprintName = "ControllingLEDsOverTheInternet"
+            ReferencedContainer = "container:ControllingLEDsOverTheInternet.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
